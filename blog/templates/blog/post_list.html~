@@ -1,9 +1,17 @@
-<html>
+ <html>
         <head>
-            <title>Holala's blog</title>
+            <title>Hola it is fu...ng blog</title>
         </head>
         <body>
-            <p>Hi there!</p>
-            <p>It works!</p>
+            <div>
+                <h1><a href="">fu...ng Blog</a></h1>
+            </div>
+
+            <div>
+                
+     {% for post in posts %}
+        {{ post }}
+    {% endfor %}
+            </div>
         </body>
     </html>
