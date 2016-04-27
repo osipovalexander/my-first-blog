@@ -1,13 +1,15 @@
  <html>
         <head>
-            <title>Hola it is fu...ng blog</title>
+            <title>Hola it is blog</title>
         </head>
         <body>
             <div>
-                <h1><a href="">fu...ng Blog123TEST</a></h1>
+                <h1><a href="">Blog</a></h1>
             </div>
 
-     {{ posts }}
+     {% for post in posts %}
+        {{ post }}
+    {% endfor %}
     
         </body>
     </html>
